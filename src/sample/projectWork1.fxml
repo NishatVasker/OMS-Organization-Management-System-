@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ProjectWork1">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="635.0" layoutX="-16.0">
+         <image>
+            <Image url="@../img/Screenshot (1867).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="302.0" fitWidth="423.0" layoutX="23.0" layoutY="41.0">
+         <image>
+            <Image url="@../img/forms-of-AI.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="23.0" layoutY="14.0" text="Huaman A.I robo project" textFill="#e4e2e2">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="81.0" fitWidth="152.0" layoutX="452.0" layoutY="14.0">
+         <image>
+            <Image url="@../img/Screenshot (186).png" />
+         </image>
+      </ImageView>
+      <Button fx:id="logout" layoutX="446.0" layoutY="353.0" mnemonicParsing="false" onAction="#userLogOut" prefHeight="27.0" prefWidth="134.0" style="-fx-background-color: #FFC900;" text="Log Out" />
+      <Button fx:id="Home" layoutX="181.0" layoutY="353.0" mnemonicParsing="false" onAction="#userHome" prefHeight="27.0" prefWidth="134.0" style="-fx-background-color: #FFC900;" text="Home" />
+      <Button fx:id="Previous" layoutX="23.0" layoutY="353.0" mnemonicParsing="false" onAction="#userPrevious" prefHeight="27.0" prefWidth="134.0" style="-fx-background-color: #FFC900;" text="Previous" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SplitMenuButton?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="390.0" prefWidth="673.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Notice">
+   <children>
+      <Button fx:id="logout" layoutX="456.0" layoutY="345.0" mnemonicParsing="false" onAction="#userLogOut" prefHeight="26.0" prefWidth="98.0" style="-fx-background-color: #FFC900;" text="Log Out" />
+      <TitledPane animated="false" layoutX="-202.0" text="untitled" />
+      <ImageView fitHeight="175.0" fitWidth="251.0" layoutX="374.0" layoutY="27.0">
+         <image>
+            <Image url="@../img/Screenshot 2021-05-27 234934.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="23.0" layoutY="34.0" text="Some updates on Humanoid robot A.I project 2021" textFill="#ece9e9" />
+      <SplitMenuButton fx:id="ViewUpdate1" layoutX="23.0" layoutY="57.0" mnemonicParsing="false" onAction="#userViewUpdate1" text="View Update">
+        <items>
+          <MenuItem mnemonicParsing="false">
+               <graphic>
+                  <Label text="Update">
+                     <graphic>
+                        <Label text="Design your equipment in today. Drag and drop parts into your design, and see the project proposal and assembly time in real-time." />
+                     </graphic>
+                  </Label>
+               </graphic>
+            </MenuItem>
+        </items>
+      </SplitMenuButton>
+      <Label layoutX="23.0" layoutY="119.0" text="Updates on PadBot T2 project 2021" textFill="#ece9e9" />
+      <SplitMenuButton fx:id="ViewUpdate2" layoutX="23.0" layoutY="154.0" mnemonicParsing="false" onAction="#userViewUpdate2" text="View Update">
+         <items>
+            <MenuItem mnemonicParsing="false">
+               <graphic>
+                  <Label text="Update">
+                     <graphic>
+                        <Label text="The final project of PadBot T2-make it  as a funny growth buddy robot,make a  supports voice command to help kids more willing to learn STEM. Make a Parents  remote controlloer the robot while having a video chat to accompany their children.">
+                           <graphic>
+                              <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../img/product_t2.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Label>
+                     </graphic>
+                  </Label>
+               </graphic>
+            </MenuItem>
+         </items>
+      </SplitMenuButton>
+      <Label layoutX="23.0" layoutY="224.0" text="Extension date for Submission of Arduino marketplace project report 2021" textFill="#ece9e9" />
+      <SplitMenuButton fx:id="ViewUpdate3" layoutX="25.0" layoutY="261.0" mnemonicParsing="false" onAction="#userViewUpdate3" text="View Update">
+         <items>
+            <MenuItem mnemonicParsing="false">
+               <graphic>
+                  <Label text="Undergrade project file submission date 03 June 2021" />
+               </graphic>
+            </MenuItem>
+         </items>
+      </SplitMenuButton>
+      <Label layoutX="25.0" layoutY="317.0" text="Monthly meeting will held today at 4.00pm in office auditorium." textFill="#00ff4a" />
+      <Button fx:id="Home" layoutX="168.0" layoutY="345.0" mnemonicParsing="false" onAction="#userHome" prefHeight="27.0" prefWidth="134.0" style="-fx-background-color: #FFC900;" text="Home" />
+      <Button fx:id="Previous" layoutX="12.0" layoutY="345.0" mnemonicParsing="false" onAction="#userPrevious" prefHeight="27.0" prefWidth="134.0" style="-fx-background-color: #FFC900;" text="Previous" />
+   </children>
+</AnchorPane>

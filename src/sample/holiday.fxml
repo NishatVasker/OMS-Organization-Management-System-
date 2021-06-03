@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SplitMenuButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Holiday">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0">
+         <image>
+            <Image url="@../img/Screenshot (1867).png" />
+         </image>
+      </ImageView>
+      <Button fx:id="Previous" layoutX="14.0" layoutY="352.0" mnemonicParsing="false" onAction="#userPrevious" prefHeight="27.0" prefWidth="134.0" style="-fx-background-color: #FFC900;" text="Previous" />
+      <Button fx:id="logout" layoutX="451.0" layoutY="352.0" mnemonicParsing="false" onAction="#userLogOut" prefHeight="27.0" prefWidth="134.0" style="-fx-background-color: #FFC900;" text="Log Out" />
+      <Button fx:id="UpEvent" layoutX="43.0" layoutY="29.0" mnemonicParsing="false" onAction="#userUpEvent" prefHeight="50.0" prefWidth="118.0" style="-fx-background-color: #00FF00;" text="Upcoming Event" />
+      <SplitMenuButton fx:id="GovtHoliday" layoutX="46.0" layoutY="146.0" mnemonicParsing="false" onAction="#userGovtHoliday" style="-fx-background-color: #87CEFA;" text="Govt. Holiday">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Eid-ul-fitre  14/5/2021" />
+          <MenuItem mnemonicParsing="false" text="Language Movement Day   Sun, Feb 21, 2021" />
+            <MenuItem mnemonicParsing="false" text="Bengali New Year (Pôhela Boishakh)      Wed, Apr 14, 2021" />
+            <MenuItem mnemonicParsing="false" text="Labour DaySat,     May 1, 2021" />
+            <MenuItem mnemonicParsing="false" text="Sheikh Mujibur Rahman's Birth Anniversary       Wed, Mar 17, 2021" />
+            <MenuItem mnemonicParsing="false" text="Jumu'atul-Wida      May 6 – 7, 2021" />
+            <MenuItem mnemonicParsing="false" text="Laylat al-Qadr      May 9 – 10, 2021" />
+            <MenuItem mnemonicParsing="false" text="Nazrul JayantiMon,       May 24, 2021" />
+            <MenuItem mnemonicParsing="false" text="Eid al-AdhaLikely      Jul 20 – 21, 2021" />
+            <MenuItem mnemonicParsing="false" text="National Mourning Day       Sun, Aug 15, 2021" />
+            <MenuItem mnemonicParsing="false" text="Christmas Day      Sat, Dec 25, 2021" />
+        </items>
+      </SplitMenuButton>
+      <SplitMenuButton fx:id="OfficialHoliday" layoutX="205.0" layoutY="146.0" mnemonicParsing="false" onAction="#userOfficialHoliday" style="-fx-background-color: #87CEFA;" text="Official Holiday">
+         <items>
+            <MenuItem mnemonicParsing="false" text="Official holiday 3 day (Employer team must have to take this for refreshment)" />
+            <MenuItem mnemonicParsing="false" text="TRB birthday  1/1/2021" />
+            <MenuItem mnemonicParsing="false" text="TRB day 2/1/2021" />
+            <MenuItem mnemonicParsing="false" text="Engineers day  7/5/2021" />
+         </items>
+      </SplitMenuButton>
+   </children>
+</AnchorPane>

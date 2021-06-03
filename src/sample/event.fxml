@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Event">
+   <children>
+      <Label layoutX="101.0" layoutY="80.0" prefHeight="18.0" prefWidth="68.0" text="Event" textFill="WHITE" />
+      <Label layoutX="101.0" layoutY="167.0" text="Label" textFill="WHITE" />
+      <Label layoutX="101.0" layoutY="260.0" text="Label" textFill="WHITE" />
+      <Button fx:id="logut" layoutX="493.0" layoutY="335.0" mnemonicParsing="false" onAction="#userLogOut" text="Log out" />
+      <ImageView fitHeight="183.0" fitWidth="332.0" layoutX="193.0" layoutY="93.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/Screenshot%20(186).png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

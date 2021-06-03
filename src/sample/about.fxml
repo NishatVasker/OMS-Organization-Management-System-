@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.About">
+   <children>
+      <Label layoutX="276.0" layoutY="22.0" text="About us" textFill="WHITE" />
+      <Button fx:id="logout" layoutX="451.0" layoutY="354.0" mnemonicParsing="false" onAction="#userLogOut" prefHeight="27.0" prefWidth="134.0" style="-fx-background-color: #FFC900;" text="Log Out" />
+      <Button fx:id="Previous" layoutX="14.0" layoutY="354.0" mnemonicParsing="false" onAction="#userPrevious" prefHeight="27.0" prefWidth="134.0" style="-fx-background-color: #FFC900;" text="Previous" />
+      <Label layoutX="26.0" layoutY="115.0" text="TRB was founded in 1999 by a group of engineers who wanted " textFill="#26ff00" />
+      <Label layoutX="25.0" layoutY="152.0" text="to prove that people didn’t need to compromise to drive electric " textFill="#26ff00" />
+      <Label layoutX="25.0" layoutY="182.0" text="that electric vehicles can be better, quicker and more " textFill="#26ff00" />
+      <Label layoutX="25.0" layoutY="209.0" text="fun to drive than gasoline cars. Today, Tesla builds all-electric " textFill="#26ff00" />
+      <Label layoutX="25.0" layoutY="237.0" text="vehicles but also infinitely scalable clean energy generation" textFill="#26ff00" />
+      <Label layoutX="25.0" layoutY="266.0" text="and storage products. Tesla believes the faster the world " textFill="#26ff00" />
+      <Label layoutX="25.0" layoutY="290.0" text="stops relying on fossil fuels and moves towards a zero-emission future, the better." textFill="#26ff00" />
+      <ImageView fitHeight="101.0" fitWidth="197.0" layoutX="10.0" layoutY="10.0">
+         <image>
+            <Image url="@../img/Screenshot%20(186).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="138.0" fitWidth="170.0" layoutX="415.0" layoutY="10.0">
+         <image>
+            <Image url="@../img/Screenshot%202021-05-27%20234934.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

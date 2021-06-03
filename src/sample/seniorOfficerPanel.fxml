@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SplitMenuButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SeniorOfficerPanel">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="640.0" layoutX="-8.0">
+         <image>
+            <Image url="@../img/Screenshot (1867).png" />
+         </image>
+      </ImageView>
+      <Button fx:id="Home" layoutX="181.0" layoutY="353.0" mnemonicParsing="false" onAction="#userHome" prefHeight="27.0" prefWidth="134.0" style="-fx-background-color: #FFC900;" text="Home" />
+      <Button fx:id="Previous" layoutX="24.0" layoutY="353.0" mnemonicParsing="false" onAction="#userPrevious" prefHeight="27.0" prefWidth="134.0" style="-fx-background-color: #FFC900;" text="Previous" />
+      <Button fx:id="logout" layoutX="426.0" layoutY="353.0" mnemonicParsing="false" onAction="#userLogOut" prefHeight="27.0" prefWidth="134.0" style="-fx-background-color: #FFC900;" text="Log Out" />
+      <ImageView fitHeight="81.0" fitWidth="81.0" layoutX="24.0" layoutY="14.0">
+         <image>
+            <Image url="@../img/man1.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="81.0" fitWidth="81.0" layoutX="24.0" layoutY="119.0">
+         <image>
+            <Image url="@../img/Man2.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="81.0" fitWidth="81.0" layoutX="24.0" layoutY="224.0">
+         <image>
+            <Image url="@../img/Man3.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="81.0" fitWidth="81.0" layoutX="337.0" layoutY="17.0">
+         <image>
+            <Image url="@../img/Man4.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="81.0" fitWidth="89.0" layoutX="337.0" layoutY="160.0">
+         <image>
+            <Image url="@../img/Man5.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="118.0" layoutY="30.0" text="Name" textFill="#f40303">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="171.0" layoutY="31.0" text="Stephen Key" textFill="#ed9e05">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Label>
+      <SplitMenuButton fx:id="Stephen" layoutX="121.0" layoutY="70.0" mnemonicParsing="false" onAction="#userStephen" text="About Stephen">
+        <items>
+          <MenuItem mnemonicParsing="false" text="CV of Stephen">
+               <graphic>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/Screenshot%202021-06-02%20202509.png" />
+                     </image>
+                  </ImageView>
+               </graphic></MenuItem>
+          <MenuItem mnemonicParsing="false" text="Full time" />
+            <MenuItem mnemonicParsing="false" text="Joined date : 24/5/2001" />
+            <MenuItem mnemonicParsing="false" text="Main Salary: 45627$" />
+            <MenuItem mnemonicParsing="false" text="Benifical extra salary: 3554$" />
+            <MenuItem mnemonicParsing="false" text="Working under: Engineering section" />
+            <MenuItem mnemonicParsing="false" text="TRB id: 475-467-679" />
+        </items>
+      </SplitMenuButton>
+      <SplitMenuButton fx:id="Zubair" layoutX="116.0" layoutY="172.0" mnemonicParsing="false" onAction="#userZubair" text="About Zubair">
+         <items>
+            <MenuItem mnemonicParsing="false" text="CV of Zubair">
+               <graphic>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/Screenshot%202021-06-02%20202509.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </MenuItem>
+            <MenuItem mnemonicParsing="false" text="Full time" />
+            <MenuItem mnemonicParsing="false" text="Joined date : 3/5/2010" />
+            <MenuItem mnemonicParsing="false" text="Main Salary: 45627$" />
+            <MenuItem mnemonicParsing="false" text="Benifical extra salary: 3554$" />
+            <MenuItem mnemonicParsing="false" text="TRB id: 475-467-473" />
+            <MenuItem mnemonicParsing="false" text="Working under: A.I lab" />
+         </items>
+      </SplitMenuButton>
+      <SplitMenuButton fx:id="Arif" layoutX="116.0" layoutY="273.0" mnemonicParsing="false" onAction="#userArif" text="About Arif">
+         <items>
+            <MenuItem mnemonicParsing="false" text="CV of Arif">
+               <graphic>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/Screenshot%202021-06-02%20202509.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </MenuItem>
+            <MenuItem mnemonicParsing="false" text="Full time" />
+            <MenuItem mnemonicParsing="false" text="Joined date : 24/5/2020" />
+            <MenuItem mnemonicParsing="false" text="Main Salary: 45627$" />
+            <MenuItem mnemonicParsing="false" text="Benifical extra salary: 3554$" />
+            <MenuItem mnemonicParsing="false" text="TRB id: 475-467-264" />
+            <MenuItem mnemonicParsing="false" text="Working under: Digital marketing section" />
+         </items>
+      </SplitMenuButton>
+      <SplitMenuButton fx:id="Sultan" layoutX="430.0" layoutY="70.0" mnemonicParsing="false" onAction="#userSultan" text="About Sultan">
+         <items>
+            <MenuItem mnemonicParsing="false" text="CV of Sultan">
+               <graphic>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/Screenshot%202021-06-02%20202509.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </MenuItem>
+            <MenuItem mnemonicParsing="false" text="Full time" />
+            <MenuItem mnemonicParsing="false" text="Joined date : 6/5/2016" />
+            <MenuItem mnemonicParsing="false" text="Main Salary: 45627$" />
+            <MenuItem mnemonicParsing="false" text="Benifical extra salary: 3554$" />
+            <MenuItem mnemonicParsing="false" text="TRB id: 475-467-964" />
+            <MenuItem mnemonicParsing="false" text="Working under: Engineering section" />
+         </items>
+      </SplitMenuButton>
+      <SplitMenuButton fx:id="Naheed" layoutX="435.0" layoutY="211.0" mnemonicParsing="false" onAction="#userNaheed" text="About Naheed">
+         <items>
+            <MenuItem mnemonicParsing="false" text="CV of Naheed">
+               <graphic>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/Screenshot%202021-06-02%20202509.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </MenuItem>
+            <MenuItem mnemonicParsing="false" text="Full time" />
+            <MenuItem mnemonicParsing="false" text="Joined date : 24/5/2021" />
+            <MenuItem mnemonicParsing="false" text="Main Salary: 4567$" />
+            <MenuItem mnemonicParsing="false" text="Benifical extra salary: 554$" />
+            <MenuItem mnemonicParsing="false" text="TRB id: 475-467-239" />
+            <MenuItem mnemonicParsing="false" text="Working under: HRM section" />
+         </items>
+      </SplitMenuButton>
+      <Label layoutX="171.0" layoutY="127.0" text="Zubair Azim Miazi" textFill="#ed9e05">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="118.0" layoutY="127.0" text="Name" textFill="#f40303">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="118.0" layoutY="233.0" text="Name" textFill="#f40303">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="165.0" layoutY="233.0" text="Arif Ul Islam" textFill="#ed9e05">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="467.0" layoutY="21.0" text="Sultan Al Raihan" textFill="#ed9e05">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="418.0" layoutY="20.0" text="Name" textFill="#f40303">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="435.0" layoutY="166.0" text="Name" textFill="#f40303">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="485.0" layoutY="166.0" text="Naheed Rayan" textFill="#ed9e05">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

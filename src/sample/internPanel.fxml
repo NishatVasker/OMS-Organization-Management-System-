@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SplitMenuButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.InternPanel">
+   <children>
+      <ImageView fitHeight="327.0" fitWidth="537.0" layoutX="32.0" layoutY="37.0">
+         <image>
+            <Image url="@../img/Screenshot%20(1867).png" />
+         </image>
+      </ImageView>
+      <Button fx:id="logout" layoutX="434.0" layoutY="350.0" mnemonicParsing="false" onAction="#userLogOut" prefHeight="27.0" prefWidth="134.0" style="-fx-background-color: #FFC900;" text="Log Out" />
+      <Button fx:id="Home" layoutX="199.0" layoutY="350.0" mnemonicParsing="false" onAction="#userHome" prefHeight="27.0" prefWidth="134.0" style="-fx-background-color: #FFC900;" text="Home" />
+      <Button fx:id="Previous" layoutX="32.0" layoutY="350.0" mnemonicParsing="false" onAction="#userPrevious" prefHeight="27.0" prefWidth="134.0" style="-fx-background-color: #FFC900;" text="Previous" />
+      <ImageView layoutX="25.0" layoutY="37.0">
+         <image>
+            <Image url="@../img/i1.jpg" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="25.0" layoutY="179.0">
+         <image>
+            <Image url="@../img/i2.jpg" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="308.0" layoutY="37.0">
+         <image>
+            <Image url="@../img/i3.jpg" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="308.0" layoutY="179.0">
+         <image>
+            <Image url="@../img/i4.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="132.0" layoutY="37.0" text="Name" textFill="#f40303">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="132.0" layoutY="179.0" text="Name" textFill="#f40303">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="414.0" layoutY="37.0" text="Name" textFill="#f40303">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="414.0" layoutY="179.0" text="Name" textFill="#f40303">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="179.0" layoutY="37.0" text="Md Salman" textFill="#ed9e05">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="179.0" layoutY="179.0" text="Sabik Rahat" textFill="#ed9e05">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="458.0" layoutY="37.0" text="Dinhi lo phong" textFill="#ed9e05">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="466.0" layoutY="179.0" text="Khandaker Tanim" textFill="#ed9e05">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Label>
+      <SplitMenuButton layoutX="134.0" layoutY="75.0" mnemonicParsing="false" text="About Salman">
+        <items>
+          <MenuItem mnemonicParsing="false" text="CV of Salman">
+               <graphic>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/Screenshot%202021-06-02%20202509.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </MenuItem>
+            <MenuItem mnemonicParsing="false" text="Joined date: 12/5/21" />
+            <MenuItem mnemonicParsing="false" text="Intern Duration: 6 month" />
+            <MenuItem mnemonicParsing="false" text="Salary: 120$" />
+            <MenuItem mnemonicParsing="false" text="Working under: A.i robot project" />
+            <MenuItem mnemonicParsing="false" text="Trb id: 102-12-345" />
+            <MenuItem mnemonicParsing="false" />
+          <MenuItem mnemonicParsing="false" />
+        </items>
+      </SplitMenuButton>
+      <SplitMenuButton layoutX="134.0" layoutY="217.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="115.0" text="About Rahat">
+        <items>
+          <MenuItem mnemonicParsing="false" text="CV of Rahat">
+               <graphic>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/Screenshot%202021-06-02%20202509.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </MenuItem>
+            <MenuItem mnemonicParsing="false" text="Joined date: 12/5/21" />
+            <MenuItem mnemonicParsing="false" text="Intern Duration: 12 month" />
+            <MenuItem mnemonicParsing="false" text="Salary: 120$" />
+            <MenuItem mnemonicParsing="false" text="Working under: Flutter project" />
+            <MenuItem mnemonicParsing="false" text="Trb id: 102-12-234" />
+          <MenuItem mnemonicParsing="false" />
+        </items>
+      </SplitMenuButton>
+      <SplitMenuButton layoutX="414.0" layoutY="75.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="115.0" text="About Dinhi">
+        <items>
+          <MenuItem mnemonicParsing="false" text="CV of Dinhi">
+               <graphic>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/Screenshot%202021-06-02%20202509.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </MenuItem>
+            <MenuItem mnemonicParsing="false" text="Joined date: 12/5/21" />
+            <MenuItem mnemonicParsing="false" text="Intern Duration: 6 month" />
+            <MenuItem mnemonicParsing="false" text="Salary: 120$" />
+            <MenuItem mnemonicParsing="false" text="Working under: HRM project" />
+          <MenuItem mnemonicParsing="false" text="Trb id: 102-12-534" />
+        </items>
+      </SplitMenuButton>
+      <SplitMenuButton layoutX="414.0" layoutY="217.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="115.0" text="About Tanim">
+        <items>
+          <MenuItem mnemonicParsing="false" text="CV of Tanim">
+               <graphic>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/Screenshot%202021-06-02%20202509.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </MenuItem>
+            <MenuItem mnemonicParsing="false" text="Joined date: 12/5/21" />
+            <MenuItem mnemonicParsing="false" text="Intern Duration: 12 month" />
+            <MenuItem mnemonicParsing="false" text="Salary: 120$" />
+            <MenuItem mnemonicParsing="false" text="Working under: Android app development  project" />
+          <MenuItem mnemonicParsing="false" text="Trb id: 102-12-235" />
+        </items>
+      </SplitMenuButton>
+   </children>
+</AnchorPane>

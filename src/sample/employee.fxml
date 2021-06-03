@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Employee">
+   <children>
+      <ImageView fitHeight="302.0" fitWidth="585.0" layoutX="6.0" layoutY="48.0">
+         <image>
+            <Image url="@../img/Screenshot (1867).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="102.0" fitWidth="133.0" layoutX="458.0">
+         <image>
+            <Image url="@../img/Screenshot%202021-05-27%20234934.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="logout" layoutX="457.0" layoutY="358.0" mnemonicParsing="false" onAction="#userLogOut" prefHeight="27.0" prefWidth="134.0" style="-fx-background-color: #FFC900;" text="Log Out" />
+      <Button fx:id="Previous" layoutX="14.0" layoutY="358.0" mnemonicParsing="false" onAction="#userPrevious" prefHeight="27.0" prefWidth="134.0" style="-fx-background-color: #FFC900;" text="Previous" />
+      <Button fx:id="ManagerPanel" layoutX="461.0" layoutY="166.0" mnemonicParsing="false" onAction="#userManagerPanel" prefHeight="26.0" prefWidth="124.0" text="Manager pannel" />
+      <Button fx:id="SeniorOfficerPanel" layoutX="24.0" layoutY="76.0" mnemonicParsing="false" onAction="#userSeniorOfficerPanel" text="Senior officers panel" />
+      <Button fx:id="JuniorOfficerPanel" layoutX="24.0" layoutY="138.0" mnemonicParsing="false" onAction="#userJuniorOfficerPanel" prefHeight="27.0" prefWidth="124.0" text="Junior officer panel" />
+      <Button fx:id="InternPanel" layoutX="24.0" layoutY="200.0" mnemonicParsing="false" onAction="#userInternPanel" prefHeight="14.0" prefWidth="124.0" text="Intern team panel" />
+      <Button fx:id="CeoPanel" layoutX="462.0" layoutY="115.0" mnemonicParsing="false" onAction="#userCeoPanel" prefHeight="27.0" prefWidth="124.0" text="CEO panel" />
+   </children>
+</AnchorPane>

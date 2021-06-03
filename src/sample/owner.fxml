@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SplitMenuButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Owner">
+   <children>
+      <Label layoutX="128.0" layoutY="21.0" text="Name" textFill="#f40303">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="127.0" layoutY="57.0" text="Email" textFill="#f40303">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="181.0" layoutY="21.0" text="Nishat Vasker" textFill="#ed9e05">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="181.0" layoutY="57.0" text="mdnishatkhanchowdhury@gmail.com" textFill="#e0f205">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Label>
+      <SplitMenuButton fx:id="SplitMenuButton" layoutX="128.0" layoutY="96.0" mnemonicParsing="false" onAction="#userSplitMenuButton" prefHeight="30.0" prefWidth="151.0" style="-fx-background-color: #FF0000;" text="About Nishat">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Information of Nishat">
+               <graphic>
+                  <SplitMenuButton mnemonicParsing="false" style="-fx-background-color: #FF0000;" text="CV">
+                    <items>
+                      <MenuItem mnemonicParsing="false" text="CV of Nishat">
+                           <graphic>
+                              <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../img/nishatcv.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </MenuItem>
+                      <MenuItem mnemonicParsing="false" text="Achievement">
+                           <graphic>
+                              <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../img/Acievement.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </MenuItem>
+                    </items>
+                  </SplitMenuButton>
+               </graphic>
+            </MenuItem>
+          <MenuItem mnemonicParsing="false" text="Certification">
+               <graphic>
+                  <SplitMenuButton mnemonicParsing="false" style="-fx-background-color: #FF0000;" text="All certification">
+                    <items>
+                      <MenuItem mnemonicParsing="false" text="UNDP movers">
+                           <graphic>
+                              <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../img/Screenshot (847).png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </MenuItem>
+                      <MenuItem mnemonicParsing="false" text="Programming language">
+                           <graphic>
+                              <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../img/Screenshot (848).png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </MenuItem>
+                    </items>
+                  </SplitMenuButton>
+               </graphic>
+            </MenuItem>
+        </items>
+      </SplitMenuButton>
+      <ImageView fitHeight="91.0" fitWidth="122.0" layoutX="28.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/owner01.JPG" />
+         </image>
+      </ImageView>
+      <Button fx:id="logout" layoutX="459.0" layoutY="358.0" mnemonicParsing="false" onAction="#userLogOut" prefHeight="27.0" prefWidth="134.0" style="-fx-background-color: #FFC900;" text="Log Out" />
+      <Label layoutX="53.0" layoutY="122.0" text="CEO" textFill="#f7f6f6" />
+      <ImageView fitHeight="108.0" fitWidth="142.0" layoutX="451.0" layoutY="6.0">
+         <image>
+            <Image url="@../img/Screenshot 2021-05-27 234934.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="ProjectWork" layoutX="300.0" layoutY="96.0" mnemonicParsing="false" onAction="#projectWork" prefHeight="30.0" prefWidth="126.0" style="-fx-background-color: #FFFFFF;" text="Project work" />
+      <ImageView fitHeight="91.0" fitWidth="84.0" layoutX="24.0" layoutY="174.0">
+         <image>
+            <Image url="@../img/owner02%5B1497%5D.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="53.0" layoutY="280.0" text="CEO" textFill="#f7f6f6" />
+      <Label layoutX="128.0" layoutY="174.0" text="Name" textFill="#f40303">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="189.0" layoutY="174.0" text="Farhad Billah" textFill="#ed9e05">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="127.0" layoutY="210.0" text="Email" textFill="#f40303">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="193.0" layoutY="210.0" text="farhadbillah@gmail.com" textFill="#e0f205">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Label>
+      <SplitMenuButton fx:id="SplitMenuButton1" layoutX="117.0" layoutY="250.0" mnemonicParsing="false" onAction="#userSplitMenuButton" prefHeight="30.0" prefWidth="151.0" style="-fx-background-color: #FF0000;" text="About Farhad">
+         <items>
+            <MenuItem mnemonicParsing="false" text="Information of Farhad">
+               <graphic>
+                  <SplitMenuButton mnemonicParsing="false" style="-fx-background-color: #FF0000;" text="CV">
+                     <items>
+                        <MenuItem mnemonicParsing="false" text="CV of Farhad">
+                           <graphic>
+                              <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../img/farhadCv%5B1492%5D.PNG" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </MenuItem>
+                        <MenuItem mnemonicParsing="false" text="Achievement">
+                           <graphic>
+                              <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../img/farhadCe%5B1493%5D.jpeg" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </MenuItem>
+                     </items>
+                  </SplitMenuButton>
+               </graphic>
+            </MenuItem>
+            <MenuItem mnemonicParsing="false" text="Certification">
+               <graphic>
+                  <SplitMenuButton mnemonicParsing="false" style="-fx-background-color: #FF0000;" text="All certification">
+                     <items>
+                        <MenuItem mnemonicParsing="false" text="UNDP movers">
+                           <graphic>
+                              <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../img/Ce%5B1495%5D.PNG" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </MenuItem>
+                     </items>
+                  </SplitMenuButton>
+               </graphic>
+            </MenuItem>
+         </items>
+      </SplitMenuButton>
+      <Button fx:id="ProjectWork1" layoutX="300.0" layoutY="250.0" mnemonicParsing="false" onAction="#projectWork1" prefHeight="30.0" prefWidth="126.0" style="-fx-background-color: #FFFFFF;" text="Project work" />
+      <Button fx:id="Previous" layoutX="11.0" layoutY="358.0" mnemonicParsing="false" onAction="#userPrevious" prefHeight="27.0" prefWidth="134.0" style="-fx-background-color: #FFC900;" text="Previous" />
+      <Button fx:id="Home" layoutX="170.0" layoutY="358.0" mnemonicParsing="false" onAction="#userHome" prefHeight="27.0" prefWidth="134.0" style="-fx-background-color: #FFC900;" text="Home" />
+   </children>
+</AnchorPane>

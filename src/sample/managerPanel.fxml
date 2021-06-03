@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SplitMenuButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ManagerPanel">
+   <children>
+      <ImageView fitHeight="161.0" fitWidth="200.0" layoutX="387.0" layoutY="112.0">
+         <image>
+            <Image url="@../img/Screenshot%202021-05-27%20234934.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="130.0" layoutY="14.0" text="Name" textFill="#f40303">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="130.0" layoutY="123.0" text="Name" textFill="#f40303">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="130.0" layoutY="235.0" text="Name" textFill="#f40303">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="185.0" layoutY="14.0" text="Md Farash " textFill="#ed9e05">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="126.0" layoutY="43.0" text="mdfarashuddin@gmail.com" textFill="#07eb3d">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Label>
+      <SplitMenuButton fx:id="Farash" layoutX="132.0" layoutY="82.0" mnemonicParsing="false" onAction="#userFarash" prefHeight="26.0" prefWidth="122.0" text="About Farash">
+         <items>
+            <MenuItem mnemonicParsing="false" text="CV of Farash">
+               <graphic>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/Screenshot%202021-06-02%20202509.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </MenuItem>
+            <MenuItem mnemonicParsing="false" text="Full time" />
+            <MenuItem mnemonicParsing="false" text="Joined date : 24/5/2001" />
+            <MenuItem mnemonicParsing="false" text="Main Salary: 45627$" />
+            <MenuItem mnemonicParsing="false" text="Benifical extra salary: 3554$" />
+            <MenuItem mnemonicParsing="false" text="Working under: Engineering section" />
+            <MenuItem mnemonicParsing="false" text="TRB id: 475-467-679" />
+         </items>
+      </SplitMenuButton>
+      <Label layoutX="185.0" layoutY="123.0" text="M. Shahidul Hassan" textFill="#ed9e05">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="130.0" layoutY="152.0" text="shahidul@gmail.com" textFill="#07eb3d">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Label>
+      <SplitMenuButton fx:id="Shahidul" layoutX="132.0" layoutY="193.0" mnemonicParsing="false" onAction="#userShahidul" text="About Shahidul">
+         <items>
+            <MenuItem mnemonicParsing="false" text="CV of Shahidul">
+               <graphic>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/Screenshot%202021-06-02%20202509.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </MenuItem>
+            <MenuItem mnemonicParsing="false" text="Full time" />
+            <MenuItem mnemonicParsing="false" text="Joined date : 24/5/2001" />
+            <MenuItem mnemonicParsing="false" text="Main Salary: 45627$" />
+            <MenuItem mnemonicParsing="false" text="Benifical extra salary: 3554$" />
+            <MenuItem mnemonicParsing="false" text="Working under: Engineering section" />
+            <MenuItem mnemonicParsing="false" text="TRB id: 475-467-679" />
+         </items>
+      </SplitMenuButton>
+      <SplitMenuButton fx:id="Khalilur" layoutX="126.0" layoutY="292.0" mnemonicParsing="false" onAction="#userKhalilur" prefHeight="26.0" prefWidth="134.0" text="About Khalilur">
+         <items>
+            <MenuItem mnemonicParsing="false" text="CV of Khalilur">
+               <graphic>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/Screenshot%202021-06-02%20202509.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </MenuItem>
+            <MenuItem mnemonicParsing="false" text="Full time" />
+            <MenuItem mnemonicParsing="false" text="Joined date : 24/5/2001" />
+            <MenuItem mnemonicParsing="false" text="Main Salary: 45627$" />
+            <MenuItem mnemonicParsing="false" text="Benifical extra salary: 3554$" />
+            <MenuItem mnemonicParsing="false" text="Working under: Engineering section" />
+            <MenuItem mnemonicParsing="false" text="TRB id: 475-467-679" />
+         </items>
+      </SplitMenuButton>
+      <Label layoutX="126.0" layoutY="263.0" text="khalilur@gmail.com" textFill="#07eb3d">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="185.0" layoutY="235.0" text="Dr. Khalilur Rahman" textFill="#ed9e05">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="logout" layoutX="434.0" layoutY="356.0" mnemonicParsing="false" onAction="#userLogOut" prefHeight="27.0" prefWidth="134.0" style="-fx-background-color: #FFC900;" text="Log Out" />
+      <Button fx:id="Home" layoutX="170.0" layoutY="356.0" mnemonicParsing="false" onAction="#userHome" prefHeight="27.0" prefWidth="134.0" style="-fx-background-color: #FFC900;" text="Home" />
+      <Button fx:id="Previous" layoutX="23.0" layoutY="356.0" mnemonicParsing="false" onAction="#userPrevious" prefHeight="27.0" prefWidth="134.0" style="-fx-background-color: #FFC900;" text="Previous" />
+      <ImageView layoutX="10.0" layoutY="10.0">
+         <image>
+            <Image url="@../img/m11.jpg" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="14.0" layoutY="121.0">
+         <image>
+            <Image url="@../img/m12.jpg" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="14.0" layoutY="232.0">
+         <image>
+            <Image url="@../img/m13.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

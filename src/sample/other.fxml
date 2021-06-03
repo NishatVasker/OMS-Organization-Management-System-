@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Other">
+   <children>
+      <Label layoutX="144.0" layoutY="95.0" text="Other event " />
+      <Label layoutX="144.0" layoutY="172.0" text="Label" />
+      <Label layoutX="144.0" layoutY="248.0" text="Label" />
+      <Button fx:id="logout" layoutX="437.0" layoutY="294.0" mnemonicParsing="false" onAction="#userLogOut" text="Log Out" />
+   </children>
+</AnchorPane>
